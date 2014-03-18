@@ -1,0 +1,42 @@
+Cathal Interview Questions
+==========================
+
+1) Can you briefly describe your current role?
+
+2) Within your current role, how much emphasis is placed on:
+	- highlighting vulnerabilities
+	- highlighting licensing issues
+
+3) Do you use any tools or utilities to help identify security vulnerabilities in third party librires?
+
+4) Have you heard of:
+	- The NIST database
+	- OWASP
+
+5) Can you discuss NIST / OWASP and if they apply to your day-to-day job.
+
+6) What is your general opinion on usage of third-party libraries?
+
+7) Can you provide any examples of vulnerabilities that you have seen "in the wild"?
+
+8) What is your opinion on how the industry views third-party vulnerabilities as a whole?
+
+9) Is there anything developers should be doing to reduce the likelihood of insecure code?
+
+10) Does your role require the scanning of:
+	- Open source software?
+	- Propreitary software?
+
+11) In your experience, are there more vulnerabilities found in open source software or proprietary software?
+
+12) What type of research would be useful in assisting developers to identify security issues?
+
+13) Have you heard of the OWASP top ten? Are you familiar with the common types of vulnerability that appear on that list?
+
+14) Does your job involve scanning of Java and .Net projects? If so, could you discuss the differences in each language?
+
+15) In your experience, do teams give adequate importance to keeping dependencies up to date, especially in relation to security issues? Who should be responsible for that task?
+
+16) Are you familiar with the term "Threat Modelling"? What does that mean to you?
+
+17) Do you have any advice to developers who want to improve the security of the code that they deliver?
