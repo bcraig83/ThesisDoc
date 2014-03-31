@@ -7,7 +7,7 @@ Interview Questions
 	- highlighting vulnerabilities
 	- highlighting licensing issues
 
-3) Do you use any tools or utilities to help identify security vulnerabilities in third party librires?
+3) Do you use any tools or utilities to help identify security vulnerabilities in third party libraries?
 
 4) Have you heard of:
 	- The NIST database
@@ -25,7 +25,7 @@ Interview Questions
 
 10) Does your role require the scanning of:
 	- Open source software?
-	- Propreitary software?
+	- Proprietary software?
 
 11) In your experience, are there more vulnerabilities found in open source software or proprietary software?
 
@@ -33,7 +33,7 @@ Interview Questions
 
 13) Have you heard of the OWASP top ten? Are you familiar with the common types of vulnerability that appear on that list?
 
-14) Does your job involve scanning of Java and .Net projects? If so, could you discuss the differences in each language?
+14) Does your job involve scanning of Java and .Net projects (or others)? If so, could you discuss the differences in each language?
 
 15) In your experience, do teams give adequate importance to keeping dependencies up to date, especially in relation to security issues? Who should be responsible for that task?
 
