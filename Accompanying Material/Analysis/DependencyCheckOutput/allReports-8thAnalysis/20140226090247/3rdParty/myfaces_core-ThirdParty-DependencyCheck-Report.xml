@@ -1,0 +1,673 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>myfaces_core</name>
+        <reportDate>Feb 24, 2014 2:12:25 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>commons-discovery-0.4.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/commons-discovery-0.4.jar</filePath>
+            <md5>CDBB606FAA974F9361A85D6DF53AEB9F</md5>
+            <sha1>9E3417D3866D9F71E83B959B229B35DC723C7BEA</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-discovery-0.4</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>discovery</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>discovery</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>commons-discovery</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>org.apache.commons.discovery</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Commons Discovery</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-codec-1.3.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/commons-codec-1.3.jar</filePath>
+            <md5>8E149C1053741C03736A52DF83974DCC</md5>
+            <sha1>FD32786786E2ADB664D5ECC965DA47629DCA14BA</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-codec-1.3</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>codec</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>codec</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>org.apache.commons.codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>org.apache.commons.codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Jakarta Commons Codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>myfaces-impl-2.0.2-tlddoc.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/myfaces-impl-2.0.2-tlddoc.jar</filePath>
+            <md5>0EBCC2E3996DAB6AD2B8A3FA82936715</md5>
+            <sha1>102DEBDA6BCE8F737AAC3062D0485FC9548E2EFB</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>myfaces-impl-2.0.2-tlddoc</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-digester-1.8.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/commons-digester-1.8.jar</filePath>
+            <md5>CF89C593F0378E9509A06FCE7030AEBA</md5>
+            <sha1>DC6A73FDBD1FA3F0944E8497C6C872FA21DCA37E</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-digester-1.8</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>digester</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>digester</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>rule</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>commons-digester</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>org.apache.commons.digester</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Rule based XML-&gt;Java object mapping module</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>myfaces-api-2.0.2.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/myfaces-api-2.0.2.jar</filePath>
+            <md5>79ED593109E701EBEED959EDBDB64929</md5>
+            <sha1>CC62E1A3A7BD4B592E2181E898B6BF95B457D25C</sha1>
+            <description>
+        The public API classes of the Apache MyFaces CORE JSF-2.0 project
+    </description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <relatedDependencies>
+                <relatedDependency>
+                    <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/myfaces-impl-2.0.2.jar</filePath>
+                    <sha1>A56C50497BD6C81F1957AC20F0FCA729F5FD13DA</sha1>
+                    <md5>E9A6AFF9260D4183FBBA9206F90F8498</md5>
+                </relatedDependency>
+            </relatedDependencies>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>2.0.2</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>myfaces-api-2.0.2</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>myfaces-api-2.0.2</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>faces</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://www.apache.org/</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Apache MyFaces JSF Core-2.0 API</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>org.apache.myfaces.core.api</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Version</name>
+                    <value>2.0.2</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Apache MyFaces JSF Core-2.0 API</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache.myfaces.core</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>2.0.2</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>require-bundle</name>
+                    <value>org.apache.myfaces.core.impl;bundle-version=&quot;2.0.2&quot;</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Apache MyFaces JSF Core-2.0 API</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-version</name>
+                    <value>2.0.2</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>myfaces-api</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>myfaces-api</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>The public API classes of the Apache MyFaces CORE JSF-2.0 project</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>apache.myfaces.core</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>apache.myfaces.core</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Apache MyFaces JSF Core-2.0 API</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:apache:myfaces:2.0.2)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>myfaces-impl-2.0.2-facelets-tlddoc.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/myfaces-impl-2.0.2-facelets-tlddoc.jar</filePath>
+            <md5>0F5810925B6873C07A579A5BE67E5EEA</md5>
+            <sha1>545E417347890FD97D58DB532F7E6F374E5D0FA8</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>myfaces-impl-2.0.2-facelets-tlddoc</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-collections-3.2.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/commons-collections-3.2.jar</filePath>
+            <md5>7B9216B608D550787BDF43A63D88BF3B</md5>
+            <sha1>F951934AA5AE5A88D7E6DFAA6D32307D834A88BE</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-collections-3.2</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>collections</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>collection</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>collections</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>commons-collections</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Commons Collections</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Commons Collections</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-logging-1.1.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/commons-logging-1.1.1.jar</filePath>
+            <md5>ED448347FC0104034AA14C8189BF37DE</md5>
+            <sha1>5043BFEBC3DB072ED80FBD362E7CAF00E885D8AE</sha1>
+            <description>Commons Logging is a thin adapter allowing configurable bridging to other,
+    well known logging systems.</description>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-logging-1.1.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>log</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>org.apache.commons.logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Jakarta Commons Logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Jakarta Commons Logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-logging</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-logging</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Commons Logging is a thin adapter allowing configurable bridging to other,
+    well known logging systems.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-logging</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-logging</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Commons Logging</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-beanutils-1.8.3.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/myfaces_core/3rdParty/commons-beanutils-1.8.3.jar</filePath>
+            <md5>B45BE74134796C89DB7126083129532F</md5>
+            <sha1>686EF3410BCF4AB8CE7FD0B899E832AABA5FACF7</sha1>
+            <description>BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.</description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-beanutils-1.8.3</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>beanutils</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://commons.apache.org/beanutils/</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Commons BeanUtils</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>org.apache.commons.beanutils</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Commons BeanUtils</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Commons BeanUtils</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-beanutils</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-beanutils</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-beanutils</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-beanutils</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Commons BeanUtils</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

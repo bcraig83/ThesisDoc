@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>junit</name>
+        <reportDate>Feb 21, 2014 2:05:15 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>junit-4.11.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/junit/Source/junit-4.11.jar</filePath>
+            <md5>3C42BE5EA7CBF3635716ABBB429CB90D</md5>
+            <sha1>4E031BB61DF09069AEB2BFFB4019E7A5034A4EE0</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>junit-4.11</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>junit</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

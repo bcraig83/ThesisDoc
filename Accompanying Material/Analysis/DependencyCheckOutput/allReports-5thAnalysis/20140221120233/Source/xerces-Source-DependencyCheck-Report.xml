@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>xerces</name>
+        <reportDate>Feb 21, 2014 2:44:20 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>xercesSamples.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/xerces/Source/xercesSamples.jar</filePath>
+            <md5>FCEF5C43D7429124C3D4F8E1386050E8</md5>
+            <sha1>E78633418A550918ECE9122502A4CE5359754C74</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>xercesSamples</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>xercesImpl.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/xerces/Source/xercesImpl.jar</filePath>
+            <md5>6C433248D569DD471E5D2237CC31DF8B</md5>
+            <sha1>9161654D2AFE7F9063455F02CCCA8E4EC2787222</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>xercesImpl</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>xerces</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

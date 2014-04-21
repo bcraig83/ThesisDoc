@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>freecol</name>
+        <reportDate>Mar 3, 2014 6:32:29 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>FreeCol.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecol/Source/FreeCol.jar</filePath>
+            <md5>50376B71517C459E52D088423D9C46D3</md5>
+            <sha1>D030F549974CEF59B76EBF937DEF1D345132211B</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>FreeCol</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>client</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>freecol</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>sf</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>freecol</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>package-title</name>
+                    <value>FreeCol</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>package-vendor</name>
+                    <value>FreeCol Team</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>product-name</name>
+                    <value>FreeCol</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

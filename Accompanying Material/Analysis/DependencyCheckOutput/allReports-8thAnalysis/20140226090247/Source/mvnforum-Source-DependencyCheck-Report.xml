@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>mvnforum</name>
+        <reportDate>Feb 24, 2014 2:11:41 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>mvnforum.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/mvnforum/Source/mvnforum.jar</filePath>
+            <md5>70FC31BAC28A5BE0FF6BECB43EDD9E51</md5>
+            <sha1>34C9E46C0BC310861E4614CCE380E44BCBC3D4C7</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>mvnforum</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>mvnforum</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:mvnforum:mvnforum:-)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+    </dependencies>
+</analysis>

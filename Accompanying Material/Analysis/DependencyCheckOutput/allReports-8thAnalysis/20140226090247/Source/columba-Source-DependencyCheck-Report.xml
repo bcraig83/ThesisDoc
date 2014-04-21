@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>columba</name>
+        <reportDate>Feb 24, 2014 1:44:35 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>columba.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/columba/Source/columba.jar</filePath>
+            <md5>AF2BF4F723D1C08313181DD2BE551D6E</md5>
+            <sha1>EBCCFCEF97465D3F79BD3877A5B232DF87FB33C5</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>columba</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>columba</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>gui</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>mail</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

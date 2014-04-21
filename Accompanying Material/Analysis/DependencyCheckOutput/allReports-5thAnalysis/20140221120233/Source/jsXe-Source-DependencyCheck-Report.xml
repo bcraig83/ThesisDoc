@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jsXe</name>
+        <reportDate>Feb 21, 2014 2:02:14 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jsXe.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jsXe/Source/jsXe.jar</filePath>
+            <md5>8BFCE0ABEC8DDAD1257FA0D796F1F693</md5>
+            <sha1>CBFB1073CC5B6D18B8821DA57860CA19E41EC2AA</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jsXe</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jsxe</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>sourceforge</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

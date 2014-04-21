@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>trove</name>
+        <reportDate>Feb 23, 2014 4:42:41 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>junit.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/trove/3rdParty/junit.jar</filePath>
+            <md5>3AA45BE8FD3F5AE8C69B73959A7FA57C</md5>
+            <sha1>73913068C0FECBA0FFA1972728482B3B8DF0FE94</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>junit</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>junit</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

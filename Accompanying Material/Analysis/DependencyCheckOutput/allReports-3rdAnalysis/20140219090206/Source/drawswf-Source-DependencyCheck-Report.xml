@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>drawswf</name>
+        <reportDate>Feb 18, 2014 2:04:52 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>drawswf-1.2.9.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/drawswf/Source/drawswf-1.2.9.jar</filePath>
+            <md5>6A70CBDF53C887714B7EF82771035222</md5>
+            <sha1>8FD7C027B9FFE803E8E73C661124D8637AA0402E</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>drawswf-1.2.9</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

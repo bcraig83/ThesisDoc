@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>freecs</name>
+        <reportDate>Feb 21, 2014 1:18:09 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>freecs.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/Source/freecs.jar</filePath>
+            <md5>738A6C425598E00835608E71E5E2E895</md5>
+            <sha1>5FEEFAAFFB1DAD4627B291E1AF52A2DCCBE176A7</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>freecs</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>freecs</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>
