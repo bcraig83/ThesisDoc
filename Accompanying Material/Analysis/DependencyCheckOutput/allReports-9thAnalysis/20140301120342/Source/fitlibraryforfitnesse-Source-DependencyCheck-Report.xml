@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>fitlibraryforfitnesse</name>
+        <reportDate>Mar 1, 2014 11:20:48 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>fitlibrary.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/fitlibraryforfitnesse/Source/fitlibrary.jar</filePath>
+            <md5>19156826E0FFE44FC179B7583303BE9C</md5>
+            <sha1>1518423F6308BFB0CB0126D882DBC26331938467</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>fitlibrary</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>fitlibrary</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

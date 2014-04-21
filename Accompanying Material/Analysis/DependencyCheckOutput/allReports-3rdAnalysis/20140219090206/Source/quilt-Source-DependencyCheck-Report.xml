@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>quilt</name>
+        <reportDate>Feb 18, 2014 3:22:31 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>quilt-0.6-a-5.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/quilt/Source/quilt-0.6-a-5.jar</filePath>
+            <md5>4199FD55FB09DD4D369973A27E6F9FE8</md5>
+            <sha1>1CA2049B83290932F36C41FFD991B7727E413C96</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>quilt-0.6-a-5</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>quilt</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

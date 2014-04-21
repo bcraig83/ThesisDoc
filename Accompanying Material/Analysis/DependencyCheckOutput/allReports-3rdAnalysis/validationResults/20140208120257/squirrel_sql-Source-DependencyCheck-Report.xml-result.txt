@@ -1,0 +1,4 @@
+/home/bcraig/allReports/20140208120257/squirrel_sql-Source-DependencyCheck-Report.xml:2: validity error : Validation failed: no DTD found !
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+                                                                        ^
+/home/bcraig/allReports/20140208120257/squirrel_sql-Source-DependencyCheck-Report.xml validates

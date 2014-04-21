@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>squirrel_sql</name>
+        <reportDate>Feb 8, 2014 12:14:38 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>squirrel-sql.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/squirrel_sql/Source/squirrel-sql.jar</filePath>
+            <md5>F4EC8DA83C9DD4633030760DA51CCCDE</md5>
+            <sha1>B60A789FC0A9C96B69852740770CB01C7C6AFF6B</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>squirrel-sql</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>client</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>sourceforge</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>squirrel_sql</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

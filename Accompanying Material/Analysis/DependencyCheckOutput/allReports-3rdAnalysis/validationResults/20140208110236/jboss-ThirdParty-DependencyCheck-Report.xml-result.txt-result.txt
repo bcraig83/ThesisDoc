@@ -1,0 +1,3 @@
+/home/bcraig/allReports/20140208110236/jboss-ThirdParty-DependencyCheck-Report.xml-result.txt:1: parser error : Start tag expected, '<' not found
+/home/bcraig/allReports/20140208110236/jboss-ThirdParty-DependencyCheck-Report.x
+^

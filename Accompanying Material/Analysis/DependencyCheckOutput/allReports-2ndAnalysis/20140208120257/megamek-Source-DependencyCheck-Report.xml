@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>megamek</name>
+        <reportDate>Feb 8, 2014 12:05:52 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>MegaMek.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/megamek/Source/MegaMek.jar</filePath>
+            <md5>9BD26728494F2956835B6A7BF3896ACE</md5>
+            <sha1>B4F9E6D590A50241B911AA8550AB1A2B9AF5FB1E</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>MegaMek</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>common</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>megamek</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

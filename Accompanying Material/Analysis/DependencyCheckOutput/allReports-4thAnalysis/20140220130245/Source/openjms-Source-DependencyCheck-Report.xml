@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>openjms</name>
+        <reportDate>Feb 20, 2014 12:30:05 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>openjms-tools-0.7.7-beta-1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/openjms/Source/openjms-tools-0.7.7-beta-1.jar</filePath>
+            <md5>711C5B7CB385312995975AD21396C78A</md5>
+            <sha1>746CB6A3C682F85C3B4D4A2691499CF4C4FEC592</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>openjms-tools-0.7.7-beta-1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>exolab</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jms</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>tools</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>exolab</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jms</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>tools</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>openjms-tools</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>org.exolab.jms</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The OpenJMS Group</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>The OpenJMS Project</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The OpenJMS Group</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>openjms-0.7.7-beta-1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/openjms/Source/openjms-0.7.7-beta-1.jar</filePath>
+            <md5>D2484771EE6ABCBABDEFE2647EDCC792</md5>
+            <sha1>4020D73AD54F2AD7D21B307D5FD12EC138138327</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>openjms-0.7.7-beta-1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>exolab</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jms</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>exolab</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jms</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>or</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>openjms</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>org.exolab.jms</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The OpenJMS Group</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>The OpenJMS Project</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The OpenJMS Group</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>openjms-common-0.7.7-beta-1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/openjms/Source/openjms-common-0.7.7-beta-1.jar</filePath>
+            <md5>7E599D80DB47F139A32396AC324A9CDA</md5>
+            <sha1>2118090DABE7960B1EF60E15A6208F0C6A86DAE2</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>openjms-common-0.7.7-beta-1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>common</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>exolab</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jms</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>common</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>exolab</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jms</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>openjms-common</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>org.exolab.jms</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The OpenJMS Group</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>OpenJMS Common</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The OpenJMS Group</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>openjms-net-0.7.7-beta-1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/openjms/Source/openjms-net-0.7.7-beta-1.jar</filePath>
+            <md5>BBD4FCCE36CA71E909BE2DF203A9C9BC</md5>
+            <sha1>047EB55D76AE0D78A886E1EF981AD5015BF8B356</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>openjms-net-0.7.7-beta-1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>exolab</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jms</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>exolab</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jms</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>openjms-net</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>org.exolab.jms</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The OpenJMS Group</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>OpenJMS Network Layer</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The OpenJMS Group</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

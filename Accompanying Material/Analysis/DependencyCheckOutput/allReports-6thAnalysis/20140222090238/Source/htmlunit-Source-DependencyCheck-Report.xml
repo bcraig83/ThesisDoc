@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>htmlunit</name>
+        <reportDate>Feb 22, 2014 7:26:57 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>htmlunit-2.8.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/htmlunit/Source/htmlunit-2.8.jar</filePath>
+            <md5>E9B6F14AF3D27FE9B7E58E05B9AC19A6</md5>
+            <sha1>E41200B11EBF2E10EA61895CFCCF2E504390A7AD</sha1>
+            <description>A headless browser intended for use in testing web-based applications.</description>
+            <license>Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>htmlunit-2.8</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>html</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>htmlunit</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>HtmlUnit</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Gargoyle Software Inc.</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>net.sourceforge.htmlunit</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>HtmlUnit</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Gargoyle Software Inc.</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>url</name>
+                    <value>http://htmlunit.sourceforge.net</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>htmlunit</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>htmlunit</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>A headless browser intended for use in testing web-based applications.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>net.sourceforge.htmlunit</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>net.sourceforge.htmlunit</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>HtmlUnit</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>Gargoyle Software Inc.</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>htmlunit-core-js-2.8.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/htmlunit/Source/htmlunit-core-js-2.8.jar</filePath>
+            <md5>A284F3218596A66F0A7C264D1C47D4B5</md5>
+            <sha1>CDB834423CEF31CFBF071E64A7971EBA7D0ECBC8</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>htmlunit-core-js-2.8</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>corejs</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>htmlunit</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>sourceforge</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

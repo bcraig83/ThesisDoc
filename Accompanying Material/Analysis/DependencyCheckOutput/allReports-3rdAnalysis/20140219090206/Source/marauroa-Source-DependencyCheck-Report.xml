@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>marauroa</name>
+        <reportDate>Feb 18, 2014 3:04:23 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>marauroa-3.8.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/marauroa/Source/marauroa-3.8.1.jar</filePath>
+            <md5>CDBE296ECA6AA44BC3CA426A4C085A92</md5>
+            <sha1>FD38C47944A4E2EC851FDD391D7C87C227BB1A9A</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>marauroa-3.8.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>marauroa</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

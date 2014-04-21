@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>axion</name>
+        <reportDate>Feb 21, 2014 12:53:31 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>axion-1.0-M2.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/axion/Source/axion-1.0-M2.jar</filePath>
+            <md5>3020952DCA9E1162A2917CEC8AE06AF0</md5>
+            <sha1>D888714A1B9537CFE8161CCB220F0F2605DA01BF</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>axion-1.0-M2</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>axiondb</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

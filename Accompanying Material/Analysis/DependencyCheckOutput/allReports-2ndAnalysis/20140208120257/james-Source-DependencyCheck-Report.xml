@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>james</name>
+        <reportDate>Feb 8, 2014 11:52:56 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>james.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/james/Source/james.jar</filePath>
+            <md5>05644B5A01AEFFD67037AA1E7B19280A</md5>
+            <sha1>D650B27F888E35D3734F1D1EC9E6380096E50C93</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>james</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>james</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:apache:james:-)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+    </dependencies>
+</analysis>

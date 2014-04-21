@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jext</name>
+        <reportDate>Feb 8, 2014 11:56:11 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jext-5.0.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jext/Source/jext-5.0.jar</filePath>
+            <md5>7AC16E6211BBC74C6CEF4E23782BA72C</md5>
+            <sha1>B87105228B8091A225136BC4B3E886B1587188AA</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jext-5.0</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jext</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

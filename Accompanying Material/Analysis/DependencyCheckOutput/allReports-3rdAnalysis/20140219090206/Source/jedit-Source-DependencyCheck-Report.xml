@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jedit</name>
+        <reportDate>Feb 18, 2014 2:36:50 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jedit.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jedit/Source/jedit.jar</filePath>
+            <md5>65788F80CBDA887BA948295EC3244E91</md5>
+            <sha1>CE0D77C4B0E9A5FDFBF8AEACA1D35BE03457BA07</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jedit</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>gjt</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jedit</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>sp</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

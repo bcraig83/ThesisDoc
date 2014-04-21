@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>antlr</name>
+        <reportDate>Feb 18, 2014 1:47:04 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>org.abego.treelayout.core.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/antlr/3rdParty/org.abego.treelayout.core.jar</filePath>
+            <md5>661D5AEE21CABE5640CC21B7104DDE38</md5>
+            <sha1>E31E79CBA7A5414CF18FA69F3F0A2CF9EE997B61</sha1>
+            <description>Efficient and customizable TreeLayout Algorithm in Java.</description>
+            <license>BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License (BSD-3-Clause): http://treelayout.googlecode.com/files/LICENSE.TXT</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>org.abego.treelayout.core</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>abego</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>treelayout</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>abego TreeLayout Core</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>abego Software GmbH, Germany</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.abego.treelayout</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>abego TreeLayout Core</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>abego Software GmbH, Germany</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>abego.treelayout.core</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>abego.treelayout.core</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Efficient and customizable TreeLayout Algorithm in Java.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>abego.treelayout</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>abego.treelayout</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>abego TreeLayout Core</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>abego Software GmbH, Germany</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

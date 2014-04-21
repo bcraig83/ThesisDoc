@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jasml</name>
+        <reportDate>Feb 8, 2014 11:53:10 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jasml.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jasml/Source/jasml.jar</filePath>
+            <md5>F901B87FEDEAEF4C6837D89D2B876DF3</md5>
+            <sha1>814C135E517AA434EE50498A9726AB7CDD81F5EA</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jasml</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>classes</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jasml</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

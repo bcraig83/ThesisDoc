@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jparse</name>
+        <reportDate>Feb 24, 2014 2:04:18 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jparse-0.96.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jparse/Source/jparse-0.96.jar</filePath>
+            <md5>07C85AF217856023BBD2CAC4F59FE69E</md5>
+            <sha1>F0F9FDD4E31667FA42BD8C9029E007A8D1AAF2A6</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jparse-0.96</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jparse</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

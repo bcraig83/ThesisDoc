@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jstock</name>
+        <reportDate>Feb 23, 2014 4:32:07 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jstock.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jstock/Source/jstock.jar</filePath>
+            <md5>6C5044C336BEE66E739ADDB74F7B2AAB</md5>
+            <sha1>3352358E10B4A513C010C78A2CDD31FC92A2B320</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jstock</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>gui</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jstock</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>yccheok</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>x-comment</name>
+                    <value>Main-Class will be added automatically by build</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

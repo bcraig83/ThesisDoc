@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jedit</name>
+        <reportDate>Feb 23, 2014 4:27:05 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>QuickNotepad.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jedit/3rdParty/QuickNotepad.jar</filePath>
+            <md5>5D706B7E2B940B87A7FBE9ACFE7F3348</md5>
+            <sha1>66C0CC8965C7491B550D13CC8CBA34BD71135002</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>QuickNotepad</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>LatestVersion.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jedit/3rdParty/LatestVersion.jar</filePath>
+            <md5>EE9A7F9321BFAF35DA702EF7180147FA</md5>
+            <sha1>028BC658466FD2043F2BDC24E473A73A47FD1948</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>LatestVersion</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>latestversionplugin</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

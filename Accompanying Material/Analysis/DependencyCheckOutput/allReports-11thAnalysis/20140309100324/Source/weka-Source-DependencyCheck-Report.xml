@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>weka</name>
+        <reportDate>Mar 9, 2014 10:15:27 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>weka.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/weka/Source/weka.jar</filePath>
+            <md5>296EF2E94754C8822ACE58FFB94D611C</md5>
+            <sha1>48EBD86B9F6701459488A8BDF8948109EFF43D2E</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>weka</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>gui</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>weka</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>
