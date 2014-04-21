@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jspwiki</name>
+        <reportDate>Mar 3, 2014 6:47:17 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>JSPWiki.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jspwiki/Source/JSPWiki.jar</filePath>
+            <md5>35925E9DFC53C3381FB2A7FBAF9E7A18</md5>
+            <sha1>9BBB19ADD89368D18A5F561AF4FDA40E38304EEC</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>JSPWiki</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ecyrd</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jspwiki</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:jspwiki:jspwiki:-)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+    </dependencies>
+</analysis>

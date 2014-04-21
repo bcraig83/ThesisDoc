@@ -1,0 +1,607 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>freecs</name>
+        <reportDate>Mar 3, 2014 6:33:13 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>ws-commons-util-1.0.2.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/3rdParty/ws-commons-util-1.0.2.jar</filePath>
+            <md5>E0D2EFE441E2DEC803C7749C10725F61</md5>
+            <sha1>3F478E6DEF772C19D1053F61198FA1F6A6119238</sha1>
+            <description>
+      This is a small collection of utility classes, that allow high performance XML
+      processing based on SAX. Basically, it is assumed, that you are using an JAXP
+      1.1 compliant XML parser and nothing else. In particular, no dependency on the
+      javax.xml.transform package is introduced.
+    </description>
+            <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>ws-commons-util-1.0.2</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>util</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ws</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>util</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>ws</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>ws-commons-util</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>ws-commons-util</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>This is a small collection of utility classes, that allow high performance XML
+      processing based on SAX. Basically, it is assumed, that you are using an JAXP
+      1.1 compliant XML parser and nothing else. In particular, no dependency on the
+      javax.xml.transform package is introduced.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>apache.ws.commons.util</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>apache.ws.commons.util</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Apache WebServices Common Utilities</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>xmlrpc-server-3.1.3.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/3rdParty/xmlrpc-server-3.1.3.jar</filePath>
+            <md5>E83289E85123BBE87CD162A9F871439A</md5>
+            <sha1>E4DDF1852CB162139230EF733223633E362CF301</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>xmlrpc-server-3.1.3</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>server</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xmlrpc</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>org.apache.xmlrpc.server</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>XML-RPC</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>UserLand Software, Inc.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>xmlrpc-server</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>xmlrpc-server</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Apache XML-RPC Server Library</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-logging-1.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/3rdParty/commons-logging-1.1.jar</filePath>
+            <md5>6B62417E77B000A87DE66EE3935EDBF5</md5>
+            <sha1>BA24D5DE831911B684C92CD289ED5FF826271824</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-logging-1.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>impl</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>logging</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>log</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>org.apache.commons.logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Jakarta Commons Logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Jakarta Commons Logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>xmlrpc-common-3.1.3.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/3rdParty/xmlrpc-common-3.1.3.jar</filePath>
+            <md5>22F90FB4F397B588B43A8B306167F371</md5>
+            <sha1>415DAF1F1473A947452588906DC9F5B3575FB44D</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>xmlrpc-common-3.1.3</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>common</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xmlrpc</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>org.apache.xmlrpc</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>XML-RPC</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>UserLand Software, Inc.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>xmlrpc-common</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>xmlrpc-common</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Apache XML-RPC Common Library</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-codec-1.4.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/3rdParty/commons-codec-1.4.jar</filePath>
+            <md5>82B899580DA472BE37055DA949B731FA</md5>
+            <sha1>4216AF16D38465BBAB0F3DFF8EFA14204F7A399A</sha1>
+            <description>
+     The codec package contains simple encoder and decoders for
+     various formats such as Base64 and Hexadecimal.  In addition to these
+     widely used encoders and decoders, the codec package also maintains a
+     collection of phonetic encoding utilities.
+    </description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-codec-1.4</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>codec</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>decoder</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>encoder</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://commons.apache.org/codec/</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Commons Codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>org.apache.commons.codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Commons Codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Commons Codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-codec</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-codec</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>The codec package contains simple encoder and decoders for
+     various formats such as Base64 and Hexadecimal.  In addition to these
+     widely used encoders and decoders, the codec package also maintains a
+     collection of phonetic encoding utilities.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-codec</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-codec</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Commons Codec</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>ant.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/3rdParty/ant.jar</filePath>
+            <md5>829B91E545854D4271DC0EB3787C217F</md5>
+            <sha1>2217B754CA59FB8FD7722C54440C337CBC0C3C65</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>ant</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ant</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>taskdefs</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>tools</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>xmlrpc-client-3.1.3.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/3rdParty/xmlrpc-client-3.1.3.jar</filePath>
+            <md5>E304ACE736F9812B950F69788BB38A9D</md5>
+            <sha1>E486AD917028B52265610206FB5A1E2B5914B94B</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>xmlrpc-client-3.1.3</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>client</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xmlrpc</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>org.apache.xmlrpc.client</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>XML-RPC</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>UserLand Software, Inc.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>xmlrpc-client</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>xmlrpc-client</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Apache XML-RPC Client Library</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-httpclient-3.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freecs/3rdParty/commons-httpclient-3.1.jar</filePath>
+            <md5>8AD8C9229EF2D59AB9F59F7050E846A5</md5>
+            <sha1>964CD74171F427720480EFDEC40A7C7F6E58426A</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>3.1</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-httpclient-3.1</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-httpclient-3.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>httpclient</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>maven-version</name>
+                    <value>1.1</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:apache:commons-httpclient:3.1)</name>
+                </identifier>
+                <identifier type="cpe">
+                    <name>(cpe:/a:apache:httpclient:3.1)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+    </dependencies>
+</analysis>

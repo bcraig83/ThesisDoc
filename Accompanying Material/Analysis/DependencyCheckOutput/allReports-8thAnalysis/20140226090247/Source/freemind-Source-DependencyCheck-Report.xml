@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>freemind</name>
+        <reportDate>Feb 24, 2014 1:50:27 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>freemind.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freemind/Source/freemind.jar</filePath>
+            <md5>609C0917705B0A6278B771957652CCB4</md5>
+            <sha1>40B8903A008BBFD7A8B0570796D02DFA965D555B</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>freemind</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>freemind</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>freemindbrowser.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/freemind/Source/freemindbrowser.jar</filePath>
+            <md5>691D729BE2B36CBC9410484657D526B1</md5>
+            <sha1>760B3B851CC436D9E7FD45E5C4CC70DD9E50F111</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>freemindbrowser</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>freemind</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

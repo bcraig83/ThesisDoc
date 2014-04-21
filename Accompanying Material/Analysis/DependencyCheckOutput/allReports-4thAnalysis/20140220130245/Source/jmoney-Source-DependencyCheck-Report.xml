@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jmoney</name>
+        <reportDate>Feb 20, 2014 12:04:52 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jmoney.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jmoney/Source/jmoney.jar</filePath>
+            <md5>D459B3C0B81D428997C7FA64C05FF5F0</md5>
+            <sha1>0F7EB5A7E41BF100A410E6B11A13203927F8D4CD</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jmoney</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>gui</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jmoney</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>sf</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

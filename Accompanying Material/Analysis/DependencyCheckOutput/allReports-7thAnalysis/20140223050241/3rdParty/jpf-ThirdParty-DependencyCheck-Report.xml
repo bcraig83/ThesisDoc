@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jpf</name>
+        <reportDate>Feb 23, 2014 4:30:34 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>commons-logging.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jpf/3rdParty/commons-logging.jar</filePath>
+            <md5>8A507817B28077E0478ADD944C64586A</md5>
+            <sha1>F029A2AEFE2B3E1517573C580F948CAAC31B1056</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-logging</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>impl</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>logging</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>log</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>org.apache.commons.logging</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Apache Software Foundation</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>jxp.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jpf/3rdParty/jxp.jar</filePath>
+            <md5>94A0418D19F2E4C20F27368BE28A672C</md5>
+            <sha1>5591D055E1C93F0B9460C6BAAF3C17CAC77E9A64</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jxp</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jxp</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>onemind</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>parser</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>java</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jxp</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>onemind</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>jxp</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>org.onemind.jxp</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value></value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Java Scripted Page</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value></value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

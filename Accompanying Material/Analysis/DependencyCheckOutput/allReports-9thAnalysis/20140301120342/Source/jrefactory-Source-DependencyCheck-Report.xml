@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jrefactory</name>
+        <reportDate>Mar 1, 2014 11:42:29 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>JRefactory.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jrefactory/Source/JRefactory.jar</filePath>
+            <md5>3624780EF54624042CBA58ABA9EC640D</md5>
+            <sha1>3CD35C2F9A14B16162538BD643584F79C5C5EFB3</sha1>
+            <description>JRefactory for Netbeans</description>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>JRefactory</value>
+                </evidence>
+                <evidence>
+                    <source>hint analyzer</source>
+                    <name>product</name>
+                    <value>springsource_spring_framework</value>
+                </evidence>
+                <evidence>
+                    <source>hint analyzer</source>
+                    <name>vendor</name>
+                    <value>SpringSource</value>
+                </evidence>
+                <evidence>
+                    <source>hint analyzer</source>
+                    <name>vendor</name>
+                    <value>vmware</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>acm</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>bean</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>factory</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>ide</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jrefactory</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>netbeans</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>project</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>refactor</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>refactory</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>seguin</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xml</value>
+                </evidence>
+                <evidence>
+                    <source>manifest</source>
+                    <name>openide-module-long-description</name>
+                    <value>Java refactoring tool plugin for Netbeans</value>
+                </evidence>
+                <evidence>
+                    <source>manifest</source>
+                    <name>openide-module-short-description</name>
+                    <value>JRefactory for Netbeans</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:bean_project:bean:7.x-1.0::~~~drupal~~)</name>
+                    <url>http://web.nvd.nist.gov/view/vuln/search?cpe=cpe%3A%2Fa%3Abean_project%3Abean%3A7.x-1.0%3A%3A%7E%7E%7Edrupal%7E%7E</url>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2013-4499</name>
+                    <cvssScore>4.3</cvssScore>
+                    <severity>Medium</severity>
+                    <cwe>CWE-79 Improper Neutralization of Input During Web Page Generation (&apos;Cross-site Scripting&apos;)</cwe>
+                    <description>Cross-site scripting (XSS) vulnerability in the Bean module 7.x-1.x before 7.x-1.5 for Drupal allows remote attackers to inject arbitrary web script or HTML via the bean title.</description>
+                    <references>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://drupal.org/node/2118867</url>
+                            <name>https://drupal.org/node/2118867</name>
+                        </reference>
+                        <reference>
+                            <source>MISC</source>
+                            <url>https://drupal.org/node/2118873</url>
+                            <name>https://drupal.org/node/2118873</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>http://xforce.iss.net/xforce/xfdb/88278</url>
+                            <name>drupal-bean-unspecified-xss(88278)</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:bean_project:bean:7.x-1.0::~~~drupal~~</software>
+                        <software>cpe:/a:bean_project:bean:7.x-1.1::~~~drupal~~</software>
+                        <software>cpe:/a:bean_project:bean:7.x-1.2::~~~drupal~~</software>
+                        <software>cpe:/a:bean_project:bean:7.x-1.4::~~~drupal~~</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency>
+            <fileName>JRefactoryModule.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jrefactory/Source/JRefactoryModule.jar</filePath>
+            <md5>77EC9330AE607D63B23C6F19E7EEE3D3</md5>
+            <sha1>462372CB7EBED8F78B937C445D996CC0BB290AF2</sha1>
+            <description>JRefactory for Netbeans</description>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>JRefactoryModule</value>
+                </evidence>
+                <evidence>
+                    <source>hint analyzer</source>
+                    <name>product</name>
+                    <value>springsource_spring_framework</value>
+                </evidence>
+                <evidence>
+                    <source>hint analyzer</source>
+                    <name>vendor</name>
+                    <value>SpringSource</value>
+                </evidence>
+                <evidence>
+                    <source>hint analyzer</source>
+                    <name>vendor</name>
+                    <value>vmware</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>acm</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>bean</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>factory</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>ide</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jrefactory</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>netbeans</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>refactor</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>refactory</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>seguin</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xml</value>
+                </evidence>
+                <evidence>
+                    <source>manifest</source>
+                    <name>openide-module-long-description</name>
+                    <value>Java refactoring tool plugin for Netbeans</value>
+                </evidence>
+                <evidence>
+                    <source>manifest</source>
+                    <name>openide-module-short-description</name>
+                    <value>JRefactory for Netbeans</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>jrefactory.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jrefactory/Source/jrefactory.jar</filePath>
+            <md5>9B4BBDD87120A4895D0613E737A8D7CD</md5>
+            <sha1>767AB66239F3D587D7EC0E81D754E0D897105998</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jrefactory</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

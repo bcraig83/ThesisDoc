@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jgroups</name>
+        <reportDate>Feb 24, 2014 2:01:50 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jgroups-2.10.0.GA.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jgroups/Source/jgroups-2.10.0.GA.jar</filePath>
+            <md5>214A2F3BBEEAAA8A93EB9A23E8FC7F78</md5>
+            <sha1>39C3EAE070002F1E626B8092180083918E1A5CB6</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jgroups-2.10.0.GA</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jgroups</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jhotdraw</name>
+        <reportDate>Mar 1, 2014 11:38:22 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>libquaqua64.jnilib.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jhotdraw/3rdParty/libquaqua64.jnilib.jar</filePath>
+            <md5>E3FAA3CEE46E599EAC4D30992A3C7407</md5>
+            <sha1>ED6E0341E607A0EBE78A7C9607A513004B9888A6</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>libquaqua64.jnilib</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>JHotDraw Draw.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jhotdraw/3rdParty/JHotDraw Draw.jar</filePath>
+            <md5>729C5B87832E3DAE0E7CC7F9A3E936EB</md5>
+            <sha1>A46ED35980E1A01FD3146074D98484D11FB38DB7</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>JHotDraw Draw</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ch</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>quaqua</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>randelshofer</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>JHotDraw Net.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jhotdraw/3rdParty/JHotDraw Net.jar</filePath>
+            <md5>61DD5A7592A9BD81480774DFB4F04ACB</md5>
+            <sha1>C6D893E776BEE0DBAC4651945C7EB7181EB2C924</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>JHotDraw Net</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ch</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>quaqua</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>randelshofer</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>libquaqua.jnilib.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jhotdraw/3rdParty/libquaqua.jnilib.jar</filePath>
+            <md5>114EF58AB2241D9911F2B204D69B44B4</md5>
+            <sha1>68B54CC13A418E093B36B73EE474E07920D3D995</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>libquaqua.jnilib</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>quaqua.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jhotdraw/3rdParty/quaqua.jar</filePath>
+            <md5>ADE840163621A07784C7B95B5D091709</md5>
+            <sha1>0A0A90C49F51FBE34061C6FE1EF566620E88C982</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>quaqua</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ch</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>quaqua</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>randelshofer</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>quaqua</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>randelshofer</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Quaqua Look and Feel</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Werner Randelshofer</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Quaqua Look and Feel</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Werner Randelshofer</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>JHotDraw PERT.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jhotdraw/3rdParty/JHotDraw PERT.jar</filePath>
+            <md5>5B16B58C6679642EDA0E05C345B03E6B</md5>
+            <sha1>5DCE11BE52B54E92EC149B3D79836AA27E19B48D</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>JHotDraw PERT</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ch</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>quaqua</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>randelshofer</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>JHotDraw Teddy.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jhotdraw/3rdParty/JHotDraw Teddy.jar</filePath>
+            <md5>D9A3FA3CB7A966F0F0FBB3A4B27AD4A3</md5>
+            <sha1>34FF17BE8AD60AB2E63526F53A66157DC4FC069F</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>JHotDraw Teddy</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ch</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>quaqua</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>randelshofer</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>JHotDraw SVG.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jhotdraw/3rdParty/JHotDraw SVG.jar</filePath>
+            <md5>DADF37E1AAE8B7FE69E89FB2BA409FD4</md5>
+            <sha1>21DA8A75243F43460AF0DE4891D4036B9DE7C465</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>JHotDraw SVG</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jhotdraw</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

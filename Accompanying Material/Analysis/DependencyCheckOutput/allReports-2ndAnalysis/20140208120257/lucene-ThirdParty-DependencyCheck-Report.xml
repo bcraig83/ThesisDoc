@@ -1,0 +1,1383 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>lucene</name>
+        <reportDate>Feb 8, 2014 12:04:52 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>icu4j-49.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/icu4j-49.1.jar</filePath>
+            <md5>628B78DEB0E1BEC568695AD68FEC35F3</md5>
+            <sha1>FBF7A438E6BF3660E0DA2FD77DD1DF1635FE503C</sha1>
+            <description>International Components for Unicode for Java</description>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>49.1</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>icu4j-49.1</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>icu4j-49.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ibm</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>icu</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>ibm</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>icu</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-copyright</name>
+                    <value>Copyright 2000-2012, International Business Machines Corporation and others.  All Rights Reserved.</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>ICU4J</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>com.ibm.icu</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Vendor</name>
+                    <value>IBM Corporation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Version</name>
+                    <value>49.1</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>International Components for Unicode for Java</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>IBM Corporation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>com.ibm</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>49.1</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>International Components for Unicode for Java</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>icu-project.org</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-version</name>
+                    <value>49</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:icu_project:international_components_for_unicode:49)</name>
+                    <url>http://web.nvd.nist.gov/view/vuln/search?cpe=cpe%3A%2Fa%3Aicu_project%3Ainternational_components_for_unicode%3A49</url>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2011-4599</name>
+                    <cvssScore>7.5</cvssScore>
+                    <severity>High</severity>
+                    <cwe>CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer</cwe>
+                    <description>Stack-based buffer overflow in the _canonicalize function in common/uloc.c in International Components for Unicode (ICU) before 49.1 allows remote attackers to execute arbitrary code via a crafted locale ID that is not properly handled during variant canonicalization.</description>
+                    <references>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2012/Sep/msg00003.html</url>
+                            <name>APPLE-SA-2012-09-19-1</name>
+                        </reference>
+                        <reference>
+                            <source>APPLE</source>
+                            <url>http://lists.apple.com/archives/security-announce/2012/Sep/msg00004.html</url>
+                            <name>APPLE-SA-2012-09-19-2</name>
+                        </reference>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/51006</url>
+                            <name>51006</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://bugs.icu-project.org/trac/ticket/8984</url>
+                            <name>http://bugs.icu-project.org/trac/ticket/8984</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://code.google.com/p/chromium/issues/detail?id=106441</url>
+                            <name>http://code.google.com/p/chromium/issues/detail?id=106441</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT5501</url>
+                            <name>http://support.apple.com/kb/HT5501</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://support.apple.com/kb/HT5503</url>
+                            <name>http://support.apple.com/kb/HT5503</name>
+                        </reference>
+                        <reference>
+                            <source>DEBIAN</source>
+                            <url>http://www.debian.org/security/2012/dsa-2397</url>
+                            <name>DSA-2397</name>
+                        </reference>
+                        <reference>
+                            <source>MANDRIVA</source>
+                            <url>http://www.mandriva.com/security/advisories?name=MDVSA-2011:194</url>
+                            <name>MDVSA-2011:194</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2011/12/09/2</url>
+                            <name>[oss-security] 20111209 CVE Request: icu out of bounds access</name>
+                        </reference>
+                        <reference>
+                            <source>MLIST</source>
+                            <url>http://www.openwall.com/lists/oss-security/2011/12/09/5</url>
+                            <name>[oss-security] 20111209 Re: CVE Request: icu out of bounds access</name>
+                        </reference>
+                        <reference>
+                            <source>OSVDB</source>
+                            <url>http://www.osvdb.org/77698</url>
+                            <name>77698</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>http://rhn.redhat.com/errata/RHSA-2011-1815.html</url>
+                            <name>RHSA-2011:1815</name>
+                        </reference>
+                        <reference>
+                            <source>SECUNIA</source>
+                            <url>http://secunia.com/advisories/47146</url>
+                            <name>47146</name>
+                        </reference>
+                        <reference>
+                            <source>SECUNIA</source>
+                            <url>http://secunia.com/advisories/47227</url>
+                            <name>47227</name>
+                        </reference>
+                        <reference>
+                            <source>SECUNIA</source>
+                            <url>http://secunia.com/advisories/47674</url>
+                            <name>47674</name>
+                        </reference>
+                        <reference>
+                            <source>SECUNIA</source>
+                            <url>http://secunia.com/advisories/47714</url>
+                            <name>47714</name>
+                        </reference>
+                        <reference>
+                            <source>SECUNIA</source>
+                            <url>http://secunia.com/advisories/47775</url>
+                            <name>47775</name>
+                        </reference>
+                        <reference>
+                            <source>SUSE</source>
+                            <url>http://lists.opensuse.org/opensuse-updates/2012-01/msg00035.html</url>
+                            <name>openSUSE-SU-2012:0100</name>
+                        </reference>
+                        <reference>
+                            <source>UBUNTU</source>
+                            <url>http://ubuntu.com/usn/usn-1348-1</url>
+                            <name>USN-1348-1</name>
+                        </reference>
+                        <reference>
+                            <source>XF</source>
+                            <url>http://xforce.iss.net/xforce/xfdb/71726</url>
+                            <name>icu-canonicalize-bo(71726)</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:icu_project:international_components_for_unicode:3.6</software>
+                        <software>cpe:/a:icu_project:international_components_for_unicode:3.8</software>
+                        <software>cpe:/a:icu_project:international_components_for_unicode:4.8</software>
+                        <software allPreviousVersion="true">cpe:/a:icu_project:international_components_for_unicode:49</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency>
+            <fileName>WhitespaceTokenizer-2.3.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/WhitespaceTokenizer-2.3.1.jar</filePath>
+            <md5>20FF915FA3F5A5D66216081AE705C41B</md5>
+            <sha1>D7B0FD616C4289376C1F59E2A68EDFB4CFD6730D</sha1>
+            <description>A simple white-space annotator to identify Tokens in text using whitespace as the delimiters</description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>WhitespaceTokenizer-2.3.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>annotator</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>uima</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>whitespacetokenizer</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>build-date</name>
+                    <value>110824_0951</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>UIMA Annotator: WhitespaceTokenizer</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://uima.apache.org</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache.uima</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>project-title</name>
+                    <value>Apache UIMA</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>WhitespaceTokenizer</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>WhitespaceTokenizer</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>A simple white-space annotator to identify Tokens in text using whitespace as the delimiters</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>UIMA Annotator:</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>nekohtml-1.9.17.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/nekohtml-1.9.17.jar</filePath>
+            <md5>5D2D195847C819CC5D48325E63C5BF7B</md5>
+            <sha1>39A870B0EA4CB0D2A3015C1AB569D17D83122D55</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>nekohtml-1.9.17</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>cyberneko</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>html</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>morfologik-fsa-1.5.5.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/morfologik-fsa-1.5.5.jar</filePath>
+            <md5>3575E4B6F7BBEC7CAFFB6BD26193A2D2</md5>
+            <sha1>7965A39DB114F7C404B71D38BC7F0E6A332C4E73</sha1>
+            <description>Morfologik Finite State Automata (construction and traversal).</description>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>morfologik-fsa-1.5.5</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>fsa</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>morfologik</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>fsa</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>morfologik</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>morfologik-fsa</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>morfologik-fsa</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Morfologik Finite State Automata (construction and traversal).</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Morfologik FSA</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>morfologik-polish-1.5.5.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/morfologik-polish-1.5.5.jar</filePath>
+            <md5>D167516F43B7D191021F1E2AC5E67B17</md5>
+            <sha1>B4A3A9746CAB8B2C99C33D2CEEDA2ECE3F8D8EF2</sha1>
+            <description>Morfologik Stemming Dictionary for Polish.</description>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>morfologik-polish-1.5.5</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>morfologik</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>stemming</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>morfologik</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>stemming</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>morfologik-polish</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>morfologik-polish</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Morfologik Stemming Dictionary for Polish.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Morfologik Stemming Dictionary for Polish</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>morfologik-stemming-1.5.5.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/morfologik-stemming-1.5.5.jar</filePath>
+            <md5>84066B033054CDE24CFE2918BD290B39</md5>
+            <sha1>E5DC913ADEBA3B89539CD5F82E5B88D136A1D85B</sha1>
+            <description>Morfologik Stemming APIs.</description>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>morfologik-stemming-1.5.5</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>morfologik</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>stemming</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>morfologik</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>stemming</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>morfologik-stemming</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>morfologik-stemming</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Morfologik Stemming APIs.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Morfologik Stemming APIs</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>Tagger-2.3.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/Tagger-2.3.1.jar</filePath>
+            <md5>0B8330D8DF61D42D28B53629E4C4985F</md5>
+            <sha1>CD02DB9E8D54DECB14CBE303D001D13735237290</sha1>
+            <description>An implementation of a Hidden Markov Model (HMM) statistical tagger</description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>Tagger-2.3.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>tagger</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>uima</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>build-date</name>
+                    <value>110824_0951</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>UIMA Annotator: Tagger</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://uima.apache.org</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache.uima</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>project-title</name>
+                    <value>Apache UIMA</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>Tagger</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>Tagger</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>An implementation of a Hidden Markov Model (HMM) statistical tagger</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>UIMA Annotator:</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>junit-4.10.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/junit-4.10.jar</filePath>
+            <md5>68380001B88006EBE49BE50CEF5BB23A</md5>
+            <sha1>E4F1766CE7404A08F45D859FB9C226FC9E41A861</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>junit-4.10</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>junit</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>spatial4j-0.3.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/spatial4j-0.3.jar</filePath>
+            <md5>96C66A753B5A88235AF32F36E7B7B4EE</md5>
+            <sha1>2FD58D1DE64553DB427AE4FBC1A6691ADEA460E2</sha1>
+            <description>
+    Spatial4j is a general purpose spatial / geospatial ASL licensed open-source Java library. It&apos;s core capabilities are 3-fold: to provide common geospatially-aware shapes, to provide distance calculations and other math, and to read and write the shapes to strings.
+  </description>
+            <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spatial4j-0.3</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>core</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>spatial4j</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>core</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>distance</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>io</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>shape</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>spatial4j</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spatial4j</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spatial4j</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spatial4j is a general purpose spatial / geospatial ASL licensed open-source Java library. It&apos;s core capabilities are 3-fold: to provide common geospatially-aware shapes, to provide distance calculations and other math, and to read and write the shapes to strings.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>spatial4j</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>spatial4j</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spatial4J</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>junit4-ant-2.0.9.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/junit4-ant-2.0.9.jar</filePath>
+            <md5>2826DF15682866C03202A88DC1F0F3F1</md5>
+            <sha1>BBA707F4B0933F782DD456C262DC36F4BAC01F45</sha1>
+            <description>Simple is a high performance XML serialization and configuration framework for Java</description>
+            <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>junit4-ant-2.0.9</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ant</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>carrotsearch</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>junit4</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>tasks</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>ant</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>junit4</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-io</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-io</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>guava</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>guava</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>junit4-ant</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>junit4-ant</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>randomizedtesting-runner</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>randomizedtesting-runner</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>simple-xml</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>simple-xml</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Guava is a suite of core and expanded libraries that include
+    utility classes, google&apos;s collections, io classes, and much
+    much more.
+
+    This project is a complete packaging of all the Guava libraries
+    into a single jar.  Individual portions of Guava can be used
+    by downloading the appropriate module and its dependencies.
+
+    Guava (complete) has only one code dependency - javax.annotation,
+    per the JSR-305 spec.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>The Commons IO library contains utility classes, stream implementations, file filters, 
+file comparators, endian transformation classes, and much more.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Simple is a high performance XML serialization and configuration framework for Java</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-io</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-io</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>simpleframework</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>simpleframework</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Commons IO</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Guava: Google Core Libraries for Java</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>RandomizedTesting JUnit4 ANT Task</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>RandomizedTesting Randomized Runner</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Simple XML</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-codec-1.7.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/commons-codec-1.7.jar</filePath>
+            <md5>E47EF8E1A0C11E0E7E41704816CDA890</md5>
+            <sha1>9CD61D269C88F9FB0EB36CEA1EFCD596AB74772F</sha1>
+            <description>
+     The codec package contains simple encoder and decoders for
+     various formats such as Base64 and Hexadecimal.  In addition to these
+     widely used encoders and decoders, the codec package also maintains a
+     collection of phonetic encoding utilities.
+    </description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-codec-1.7</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>codec</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>decoder</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>encoder</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>net</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://commons.apache.org/codec/</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Commons Codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>org.apache.commons.codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>implementation-build</name>
+                    <value>tags/1.7-RC2@r1383368; 2012-09-11 08:05:03-0400</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Commons Codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Commons Codec</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-codec</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-codec</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>The codec package contains simple encoder and decoders for
+     various formats such as Base64 and Hexadecimal.  In addition to these
+     widely used encoders and decoders, the codec package also maintains a
+     collection of phonetic encoding utilities.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-codec</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>commons-codec</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Commons Codec</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>uimaj-core-2.3.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/uimaj-core-2.3.1.jar</filePath>
+            <md5>B4D6F0A681DF167CA6DBACE3229775BF</md5>
+            <sha1>99BF8D75B71410E4D5F2051AE79942721B3A2F60</sha1>
+            <description>The core implementation of the UIMA Java Framework</description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>uimaj-core-2.3.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>impl</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>uima</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>build-date</name>
+                    <value>101206_1827</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>UIMA Base: uimaj-core</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://uima.apache.org</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache.uima</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>project-title</name>
+                    <value>Apache UIMA</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>uimaj-core</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>uimaj-core</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>The core implementation of the UIMA Java Framework</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>UIMA Base:</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>jakarta-regexp-1.4.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/jakarta-regexp-1.4.jar</filePath>
+            <md5>5D8B8C601C21B37AA6142D38F45C0297</md5>
+            <sha1>0EA514A179AC1DD7E81C7E6594468B9B9910D298</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jakarta-regexp-1.4</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>regexp</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>commons-compress-1.4.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/commons-compress-1.4.1.jar</filePath>
+            <md5>7F7FF9255A831325F38A170992B70073</md5>
+            <sha1>B02E84A993D88568417536240E970C4B809126FD</sha1>
+            <description>
+Apache Commons Compress software defines an API for working with compression and archive formats.
+These include: bzip2, gzip, pack200, xz and ar, cpio, jar, tar, zip, dump.
+  </description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>1.4.1</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-compress-1.4.1</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>commons-compress-1.4.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>commons</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>compress</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://commons.apache.org/compress/</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Commons Compress</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>org.apache.commons.compress</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Version</name>
+                    <value>1.4.1</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>org.apache.commons.compress</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>implementation-build</name>
+                    <value>trunk@r1341303; 2012-05-22 06:55:03+0200</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Commons Compress</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.apache</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.4.1</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Commons Compress</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>The Apache Software Foundation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-version</name>
+                    <value>1.4.1</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-compress</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>commons-compress</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Apache Commons Compress software defines an API for working with compression and archive formats.
+These include: bzip2, gzip, pack200, xz and ar, cpio, jar, tar, zip, dump.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>apache.commons</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>apache.commons</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Commons Compress</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.4.1</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:apache:commons-compress:1.4.1)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>xercesImpl-2.9.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/xercesImpl-2.9.1.jar</filePath>
+            <md5>F807F86D7D9DB25EDBFC782ACA7CA2A9</md5>
+            <sha1>7BC7E49DDFE4FB5F193ED37ECC96C12292C8CEB6</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>xercesImpl-2.9.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>xerces</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>randomizedtesting-runner-2.0.9.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/randomizedtesting-runner-2.0.9.jar</filePath>
+            <md5>F20EABF559EB8D61D101F91C414325F9</md5>
+            <sha1>4B8E918D278F56A18A6044660215290995889BFA</sha1>
+            <description>Foundation classes and rules for applying the principles of Randomized Testing.</description>
+            <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>randomizedtesting-runner-2.0.9</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>carrotsearch</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>classes</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>randomizedtest</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>randomizedtesting</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>rules</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://carrotsearch.com</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>RandomizedTesting Randomized Runner</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>JavaSE-1.6</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>com.carrotsearch.randomizedtesting.randomizedtesting-runner</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Bundle-Vendor</name>
+                    <value>Carrot Search s.c.</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>randomizedtesting-runner</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>randomizedtesting-runner</value>
+                </evidence>
+                <evidence>
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>RandomizedTesting Randomized Runner</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>ant-1.8.2.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/lucene/3rdParty/ant-1.8.2.jar</filePath>
+            <md5>9463F65940F928D650A95AEB057A4E0A</md5>
+            <sha1>FC33BF7CD8C5309DD7B81228E8626515EE42EFD9</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>ant-1.8.2</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>ant</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>apache</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>tools</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

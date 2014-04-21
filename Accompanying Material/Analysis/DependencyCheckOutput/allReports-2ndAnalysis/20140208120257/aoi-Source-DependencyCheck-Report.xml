@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>aoi</name>
+        <reportDate>Feb 8, 2014 11:36:05 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>ArtOfIllusion.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/aoi/Source/ArtOfIllusion.jar</filePath>
+            <md5>7B6ECC430900632AB224E64CBB20A100</md5>
+            <sha1>991A898F74E86A396332EA4EB6E8CCD76D12F54D</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>ArtOfIllusion</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>artofillusion</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

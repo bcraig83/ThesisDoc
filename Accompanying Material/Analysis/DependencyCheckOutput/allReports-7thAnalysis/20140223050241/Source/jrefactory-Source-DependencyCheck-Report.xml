@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>jrefactory</name>
+        <reportDate>Feb 23, 2014 4:31:08 AM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>jrefactory.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/jrefactory/Source/jrefactory.jar</filePath>
+            <md5>9B4BBDD87120A4895D0613E737A8D7CD</md5>
+            <sha1>767AB66239F3D587D7EC0E81D754E0D897105998</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jrefactory</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

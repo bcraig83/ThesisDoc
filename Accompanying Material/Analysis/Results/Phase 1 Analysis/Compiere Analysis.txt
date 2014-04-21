@@ -1,0 +1,28 @@
+Findings - Compiere
+
+Initially the ERP tool Compiere appeared to have a huge number of vulnerabilities within it's 339 third-party dependencies. Upon further investigation however, it became apparent that there was alot of duplication of reported vulnerabilities. The issue here is inter-dependent third-party dependencies.
+
+Basically, Compiere includes JBoss as one of it's dependencies. A considerable number of the other dependencies in turn have a dependency on JBoss. So any single vulnerability in JBoss was highlighted multiple times.
+
+When we examine unique vulnerabilities only, we are left with the following list:
+
+ID					Severity		Type
+CVE-2013-0248		Low				Security Misconfiguration
+CVE-2012-3324		High			Session Management / Authentication
+CVE-2012-2552		Medium			XSS
+CVE-2012-1856 		High			Injection
+CVE-2012-0213 		Medium			DOS attack
+CVE-2010-4007		Medium			Session Management / Authentication
+CVE-2010-0733 		Low				DOS attack
+CVE-2007-6059		Medium			DOS attack
+CVE-2007-5090		High			Access controls / privileges
+CVE-2007-4772		Medium			DOS attack
+CVE-2007-2138		Medium			Session Management / Authentication
+CVE-2007-1157		High			CSRF
+CVE-2007-0156 		High			Access controls / privileges
+CVE-2002-0013		High			Access controls / privileges
+CVE-2002-0012		High			Access controls / privileges
+CVE-2001-1464 		High			Session Management / Authentication
+CVE-1999-0472 		Medium			Session Management / Authentication
+
+

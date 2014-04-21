@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>nakedobjects</name>
+        <reportDate>Feb 20, 2014 12:26:49 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>activation-1.1.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/nakedobjects/3rdParty/activation-1.1.jar</filePath>
+            <md5>8AE38E87CD4F86059C0294A8FE3E0B18</md5>
+            <sha1>E6CB541461C2834BDEA3EB920F1884D1EB508B50</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>activation-1.1</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>activation</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>javax</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>activation</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>javax</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>sun</value>
+                </evidence>
+                <evidence>
+                    <source>jar (hint)</source>
+                    <name>package name</name>
+                    <value>oracle</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>javax.activation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Sun Microsystems, Inc.</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>com.sun</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>JavaBeans(TM) Activation Framework Specification</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Sun Microsystems, Inc.</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>mail-1.4.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/nakedobjects/3rdParty/mail-1.4.jar</filePath>
+            <md5>2E64A3805D543BDB86E6E5EECA5529F8</md5>
+            <sha1>1AA1579AE5ECD41920C4F355B0A9EF40B68315DD</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>1.4</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>mail-1.4</value>
+                </evidence>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>mail-1.4</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>javax</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>mail</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>javax</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>mail</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>sun</value>
+                </evidence>
+                <evidence>
+                    <source>jar (hint)</source>
+                    <name>package name</name>
+                    <value>oracle</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>extension-name</name>
+                    <value>javax.mail</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>JavaMail(TM) API Reference Implementation</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Sun Microsystems, Inc.</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>com.sun</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.4</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>JavaMail(TM) API Design Specification</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Sun Microsystems, Inc.</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>specification-version</name>
+                    <value>1.4</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe">
+                    <name>(cpe:/a:sun:javamail)</name>
+                    <url>http://web.nvd.nist.gov/view/vuln/search?cpe=cpe%3A%2Fa%3Asun%3Ajavamail</url>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2007-6059</name>
+                    <cvssScore>5.0</cvssScore>
+                    <severity>Medium</severity>
+                    <cwe>CWE-399 Resource Management Errors</cwe>
+                    <description>** DISPUTED **  Javamail does not properly handle a series of invalid login attempts in which the same e-mail address is entered as username and password, and the domain portion of this address yields a Java UnknownHostException error, which allows remote attackers to cause a denial of service (connection pool exhaustion) via a large number of requests, resulting in a SQLNestedException.  NOTE: Sun disputes this issue, stating &quot;The report makes references to source code and files that do not exist in the mentioned products.&quot;</description>
+                    <references>
+                        <reference>
+                            <source>BUGTRAQ</source>
+                            <url>http://archives.neohapsis.com/archives/bugtraq/2007-11/0239.html</url>
+                            <name>20071116 Javamail login username and password same email problem</name>
+                        </reference>
+                        <reference>
+                            <source>OSVDB</source>
+                            <url>http://osvdb.org/45299</url>
+                            <name>45299</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:sun:javamail</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency>
+            <fileName>jeldoclet-1.0.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/nakedobjects/3rdParty/jeldoclet-1.0.jar</filePath>
+            <md5>9723CF41770D89F8C6A406F14AC5CD38</md5>
+            <sha1>31392BFE86D4382AEA99413BCADAE60B7CF3B45D</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jeldoclet-1.0</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>jeldoclet</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>

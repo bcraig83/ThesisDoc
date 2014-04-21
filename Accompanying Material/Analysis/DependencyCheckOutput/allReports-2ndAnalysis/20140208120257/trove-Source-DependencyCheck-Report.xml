@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check">
+    <projectInfo>
+        <name>trove</name>
+        <reportDate>Feb 8, 2014 12:16:28 PM</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>trove-2.1.0.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/trove/Source/trove-2.1.0.jar</filePath>
+            <md5>7C396DBD9651CC540A486484C03F58B2</md5>
+            <sha1>C82F2749A460B95DE4C9D2466B62F18C23C7C914</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>trove-2.1.0</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>gnu</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package</name>
+                    <value>trove</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>gnu</value>
+                </evidence>
+                <evidence>
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>trove</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>GNU Trove for Java</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://trove4j.sourceforge.net/</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>trove-src-2.1.0.jar</fileName>
+            <filePath>/home/bcraig/Documents/Thesis/Analysis/reports/trove/Source/trove-src-2.1.0.jar</filePath>
+            <md5>7979C82046F6411C02E63EB972F3E336</md5>
+            <sha1>3D51239E46537FC45DD18C639CC29BBC4E390326</sha1>
+            <evidenceCollected>
+                <evidence>
+                    <source>file</source>
+                    <name>name</name>
+                    <value>trove-src-2.1.0</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>GNU Trove for Java</value>
+                </evidence>
+                <evidence>
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://trove4j.sourceforge.net/</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+    </dependencies>
+</analysis>
